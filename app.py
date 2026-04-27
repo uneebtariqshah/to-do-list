@@ -5,7 +5,7 @@ st.title("✅ Simple To-Do List")
 # 1. Initialize the list in session_state if it doesn't exist yet
 if 'tasks' not in st.session_state:
     st.session_state.tasks = []
-
+//  this is my fist project
 # 2. Input field for a new task
 new_task = st.text_input("Add a new task:", placeholder="Type something and press Enter...")
 
